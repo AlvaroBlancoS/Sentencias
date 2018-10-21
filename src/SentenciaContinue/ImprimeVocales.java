@@ -1,8 +1,12 @@
-package SentenciaBreak;
+package SentenciaContinue;
 import java.util.Scanner;
 
 public class ImprimeVocales {
-
+/*
+ * En el primer método con la sentencia continue lo que hace es si ejecutamos esta instruccion de continue;
+ * no se ejecutaría el restro de instrucción, es decir no se imprime y provocaría la siguiente iteración en el bucle for 
+ * volveríamos hasta el imprime
+ */
 
 	void imprimeVocales1 (String cadena){
 		for (int i = 0; i < cadena.length(); i++) {
